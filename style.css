@@ -108,7 +108,7 @@ li a i.bx-chevron-right {
   margin: 0 0 0 25px;
   overflow: hidden;
   max-height: 0;
-  transition: all 0.5s;
+  transition: max-height 0.7s ease;
 }
 .sub-menu li {
   height: 25px;
@@ -163,7 +163,7 @@ li.active {
   background: rgb(var(--royalblue-color));
 }
 li.active .sub-menu {
-  max-height: 300px;
+  max-height: 1000px;
 }
 li.active > a i.bx-chevron-right {
   transform: rotate(90deg);
